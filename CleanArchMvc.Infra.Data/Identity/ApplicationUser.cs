@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CleanArchMvc.Infra.Data.Identity
 {
-    public class ApllicationUser:IdentityUser
+    public class ApplicationUser:IdentityUser
     {
     }
 }
