@@ -400,3 +400,4 @@ C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.Domain.Tests\obj\D
 C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.Domain.Tests\obj\Debug\net5.0\ref\CleanArchMvc.Domain.Tests.dll
 C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.Domain.Tests\obj\Debug\net5.0\CleanArchMvc.Domain.Tests.pdb
 C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.Domain.Tests\obj\Debug\net5.0\CleanArchMvc.Domain.Tests.genruntimeconfig.cache
+C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.Domain.Tests\bin\Debug\net5.0\CoverletSourceRootsMapping
