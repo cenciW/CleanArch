@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcGabarito\\CleanArchMvc.Infra.IoC\\CleanArchMvc.Infra.IoC.csproj": {}
+    "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcc\\CleanArchMvc.Infra.IoC\\CleanArchMvc.Infra.IoC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcGabarito\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj": {
+    "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcc\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcGabarito\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcc\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj",
         "projectName": "CleanArchMvc.Application",
-        "projectPath": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcGabarito\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj",
+        "projectPath": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcc\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj",
         "packagesPath": "C:\\Users\\Jose Augusto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcGabarito\\CleanArchMvc.Application\\obj\\",
+        "outputPath": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcc\\CleanArchMvc.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\VisualStudio\\Vis3\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcGabarito\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj": {
-                "projectPath": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcGabarito\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj"
+              "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcc\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj": {
+                "projectPath": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcc\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj"
               }
             }
           }
@@ -50,15 +50,15 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[10.1.1, )"
+              "version": "[11.0.1, )"
             },
             "MediatR": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[10.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.4, )"
+              "version": "[5.0.14, )"
             }
           },
           "imports": [
@@ -80,14 +80,14 @@
         }
       }
     },
-    "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcGabarito\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj": {
+    "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcc\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcGabarito\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcc\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj",
         "projectName": "CleanArchMvc.Domain",
-        "projectPath": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcGabarito\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj",
+        "projectPath": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcc\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj",
         "packagesPath": "C:\\Users\\Jose Augusto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcGabarito\\CleanArchMvc.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcc\\CleanArchMvc.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\VisualStudio\\Vis3\\NuGetPackages"
@@ -122,7 +122,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.4, )"
+              "version": "[5.0.14, )"
             }
           },
           "imports": [
@@ -144,14 +144,14 @@
         }
       }
     },
-    "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcGabarito\\CleanArchMvc.Infra.Data\\CleanArchMvc.Infra.Data.csproj": {
+    "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcc\\CleanArchMvc.Infra.Data\\CleanArchMvc.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcGabarito\\CleanArchMvc.Infra.Data\\CleanArchMvc.Infra.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcc\\CleanArchMvc.Infra.Data\\CleanArchMvc.Infra.Data.csproj",
         "projectName": "CleanArchMvc.Infra.Data",
-        "projectPath": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcGabarito\\CleanArchMvc.Infra.Data\\CleanArchMvc.Infra.Data.csproj",
+        "projectPath": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcc\\CleanArchMvc.Infra.Data\\CleanArchMvc.Infra.Data.csproj",
         "packagesPath": "C:\\Users\\Jose Augusto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcGabarito\\CleanArchMvc.Infra.Data\\obj\\",
+        "outputPath": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcc\\CleanArchMvc.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\VisualStudio\\Vis3\\NuGetPackages"
@@ -172,8 +172,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcGabarito\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj": {
-                "projectPath": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcGabarito\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj"
+              "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcc\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj": {
+                "projectPath": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcc\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj"
               }
             }
           }
@@ -188,21 +188,29 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.14, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "None",
               "target": "Package",
-              "version": "[5.0.4, )"
+              "version": "[5.0.14, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.4, )"
+              "version": "[5.0.14, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.4, )"
+              "version": "[5.0.14, )"
             }
           },
           "imports": [
@@ -224,14 +232,14 @@
         }
       }
     },
-    "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcGabarito\\CleanArchMvc.Infra.IoC\\CleanArchMvc.Infra.IoC.csproj": {
+    "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcc\\CleanArchMvc.Infra.IoC\\CleanArchMvc.Infra.IoC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcGabarito\\CleanArchMvc.Infra.IoC\\CleanArchMvc.Infra.IoC.csproj",
+        "projectUniqueName": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcc\\CleanArchMvc.Infra.IoC\\CleanArchMvc.Infra.IoC.csproj",
         "projectName": "CleanArchMvc.Infra.IoC",
-        "projectPath": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcGabarito\\CleanArchMvc.Infra.IoC\\CleanArchMvc.Infra.IoC.csproj",
+        "projectPath": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcc\\CleanArchMvc.Infra.IoC\\CleanArchMvc.Infra.IoC.csproj",
         "packagesPath": "C:\\Users\\Jose Augusto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcGabarito\\CleanArchMvc.Infra.IoC\\obj\\",
+        "outputPath": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcc\\CleanArchMvc.Infra.IoC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\VisualStudio\\Vis3\\NuGetPackages"
@@ -252,14 +260,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcGabarito\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj": {
-                "projectPath": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcGabarito\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj"
+              "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcc\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj": {
+                "projectPath": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcc\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj"
               },
-              "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcGabarito\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj": {
-                "projectPath": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcGabarito\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj"
+              "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcc\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj": {
+                "projectPath": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcc\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj"
               },
-              "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcGabarito\\CleanArchMvc.Infra.Data\\CleanArchMvc.Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcGabarito\\CleanArchMvc.Infra.Data\\CleanArchMvc.Infra.Data.csproj"
+              "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcc\\CleanArchMvc.Infra.Data\\CleanArchMvc.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcc\\CleanArchMvc.Infra.Data\\CleanArchMvc.Infra.Data.csproj"
               }
             }
           }
@@ -276,15 +284,15 @@
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[8.1.1, )"
+              "version": "[11.0.0, )"
             },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[10.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.4, )"
+              "version": "[5.0.14, )"
             }
           },
           "imports": [
