@@ -912,7 +912,6 @@ C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\ne
 C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
 C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
 C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.Xml.dll
-C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
 C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
@@ -936,8 +935,6 @@ C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\ne
 C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.ObjectPool.dll
 C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
-C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.dll
-C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.Primitives.dll
 C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Extensions.WebEncoders.dll
 C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.JSInterop.dll
 C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\Microsoft.Net.Http.Headers.dll
@@ -1036,7 +1033,6 @@ C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\ne
 C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\System.Resources.Reader.dll
 C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\System.Resources.ResourceManager.dll
 C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\System.Resources.Writer.dll
-C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.VisualC.dll
 C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\System.Runtime.dll
 C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\net5.0\refs\System.Runtime.Extensions.dll
@@ -1223,3 +1219,11 @@ C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\obj\Debug\ne
 C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\obj\Debug\net5.0\ref\CleanArchMvc.WebUI.dll
 C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\obj\Debug\net5.0\CleanArchMvc.WebUI.pdb
 C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\obj\Debug\net5.0\CleanArchMvc.WebUI.genruntimeconfig.cache
+C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\net5.0\MediatR.Contracts.dll
+C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Jose Augusto\source\repos\CleanArchMvcc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs

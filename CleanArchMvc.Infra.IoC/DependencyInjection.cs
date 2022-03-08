@@ -34,7 +34,7 @@ namespace CleanArchMvc.Infra.IoC
             opt.AccessDeniedPath = "/Account/Login");
 
             services.AddScoped<IAuthenticate, AuthenticateService>();
-            services.AddScoped<ISeedUserRoleInitial, SeedRoleUserInitial>();
+            services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>();
 
 
             services.AddScoped<ICategoryRepository, CategoryRepository>();
