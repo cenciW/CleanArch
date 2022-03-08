@@ -1,30 +1,26 @@
 ﻿using CleanArchMvc.Domain.Account;
 using Microsoft.AspNetCore.Identity;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CleanArchMvc.Infra.Data.Identity
 {
-    public class SeedRoleUserInitial : ISeedUserRoleInitial
+    public class SeedUserRoleInitial : ISeedUserRoleInitial
     {
         private readonly UserManager<ApplicationUser> _userManager;
-        private readonly RoleManager<ApplicationUser> _roleManager;
-        public SeedRoleUserInitial(UserManager<ApplicationUser>userManager,
-            RoleManager<ApplicationUser> roleManager)
+        private readonly RoleManager<IdentityRole> _roleManager;
+
+        public SeedUserRoleInitial(RoleManager<IdentityRole> roleManager,
+              UserManager<ApplicationUser> userManager)
         {
-            _userManager = userManager;
             _roleManager = roleManager;
+            _userManager = userManager;
         }
 
-        public void SeedRoles()
+        public void SeedUsers()
         {
-            if(_userManager.FindByEmailAsync("usuario@localhost").Result == null)
+            if (_userManager.FindByEmailAsync("usuario@localhost").Result == null)
             {
                 ApplicationUser user = new ApplicationUser();
-                //props da tabela aspnet user
                 user.UserName = "usuario@localhost";
                 user.Email = "usuario@localhost";
                 user.NormalizedUserName = "USUARIO@LOCALHOST";
@@ -33,8 +29,9 @@ namespace CleanArchMvc.Infra.Data.Identity
                 user.LockoutEnabled = false;
                 user.SecurityStamp = Guid.NewGuid().ToString();
 
-                IdentityResult res = _userManager.CreateAsync(user, "Numsey#2022").Result;
-                if (res.Succeeded)
+                IdentityResult result = _userManager.CreateAsync(user, "Numsey#2021").Result;
+
+                if (result.Succeeded)
                 {
                     _userManager.AddToRoleAsync(user, "User").Wait();
                 }
@@ -43,7 +40,6 @@ namespace CleanArchMvc.Infra.Data.Identity
             if (_userManager.FindByEmailAsync("admin@localhost").Result == null)
             {
                 ApplicationUser user = new ApplicationUser();
-                //props da tabela aspnet user
                 user.UserName = "admin@localhost";
                 user.Email = "admin@localhost";
                 user.NormalizedUserName = "ADMIN@LOCALHOST";
@@ -52,22 +48,23 @@ namespace CleanArchMvc.Infra.Data.Identity
                 user.LockoutEnabled = false;
                 user.SecurityStamp = Guid.NewGuid().ToString();
 
-                IdentityResult res = _userManager.CreateAsync(user, "Admin#2022").Result;
-                if (res.Succeeded)
+                IdentityResult result = _userManager.CreateAsync(user, "Numsey#2021").Result;
+
+                if (result.Succeeded)
                 {
                     _userManager.AddToRoleAsync(user, "Admin").Wait();
                 }
             }
+
         }
 
-        public void SeedUsers()
+        public void SeedRoles()
         {
             if (!_roleManager.RoleExistsAsync("User").Result)
             {
                 IdentityRole role = new IdentityRole();
                 role.Name = "User";
                 role.NormalizedName = "USER";
-
                 IdentityResult roleResult = _roleManager.CreateAsync(role).Result;
             }
             if (!_roleManager.RoleExistsAsync("Admin").Result)
@@ -75,7 +72,6 @@ namespace CleanArchMvc.Infra.Data.Identity
                 IdentityRole role = new IdentityRole();
                 role.Name = "Admin";
                 role.NormalizedName = "ADMIN";
-
                 IdentityResult roleResult = _roleManager.CreateAsync(role).Result;
             }
         }
