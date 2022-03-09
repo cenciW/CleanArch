@@ -32,7 +32,7 @@ namespace CleanArchMvc.WebApi.Controllers
         }
 
 
-        [HttpGet("{id:int}")]
+        [HttpGet("{id:int}", Name = "GetCategory")]
         public async Task<ActionResult<CategoryDTO>> GetCategoryById(int id)
         {
             /*Nunca cai nessa condição
@@ -44,14 +44,59 @@ namespace CleanArchMvc.WebApi.Controllers
             var category = await _categoryService.GetById(id);
             //Consula do EF no banco, entao tenho que específicar o retorno que desejo!!!
 
-            if(category == null)
+            if (category == null)
             {
                 return NotFound(new { Status = "false", Message = "Category not found" });
             }
             return Ok(category);
         }
 
+        [HttpPost]
+        public async Task<ActionResult> Post([FromBody] CategoryDTO categoryDto)
+        {
+            if (categoryDto == null)
+            {
+                return BadRequest(new { Status = false, Message = "Invalid data" });
+            }
 
+            await _categoryService.Add(categoryDto);
+
+            //Retornar 201 - Created
+            return new CreatedAtRouteResult("GetCategory", new { id = categoryDto.Id }, categoryDto);
+        }
+
+        [HttpPut]
+        public async Task<ActionResult> Put(int? id, [FromBody] CategoryDTO categoryDto)
+        {
+            if (id != categoryDto.Id)
+            {
+                return BadRequest(new { Status = false, Message = "Invalid Id" });
+            }
+
+            if (categoryDto == null)
+            {
+                return BadRequest(new { Status = false, Message = "Invalid data" });
+            }
+
+            await _categoryService.Update(categoryDto);
+
+            return Ok(categoryDto);
+        }
+
+        [HttpDelete("{id:int}")]
+        public async Task<ActionResult<CategoryDTO>> Delete(int? id)
+        {
+            var category = await _categoryService.GetById(id);
+            
+            if(category == null)
+            {
+                return NotFound(new { Status = "False", Message = "Category not found" });
+            }
+
+
+            await _categoryService.Remove(id);
+            return Ok(new { Status = "True", Message = "Category deleted was: " + category.Name});
+        }
 
     }
 }
