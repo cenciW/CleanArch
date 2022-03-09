@@ -1,3 +1,4 @@
+using CleanArchMvc.Infra.Data.Context;
 using CleanArchMvc.Infra.IoC;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -30,6 +31,7 @@ namespace CleanArchMvc.WebApi
 
             services.AddInfrastructureAPI(Configuration);
             services.AddControllers();
+            services.AddDbContext<ApplicationDbContext>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CleanArchMvc.WebApi", Version = "v1" });

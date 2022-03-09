@@ -1,6 +1,8 @@
 ﻿using CleanArchMvc.Domain.Validation;
 using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
+using System.Text.Json.Serialization;
 
 namespace CleanArchMvc.Domain.Entities
 {
@@ -13,6 +15,7 @@ namespace CleanArchMvc.Domain.Entities
             ValidateDomain(name);
         }
 
+
         public Category(int id, string name)
         {
             DomainExceptionValidation.When(id < 0, "Invalid Id value.");
@@ -24,6 +27,8 @@ namespace CleanArchMvc.Domain.Entities
         {
             ValidateDomain(name);
         }
+
+
         public ICollection<Product> Products { get; set; }
 
         private void ValidateDomain(string name)

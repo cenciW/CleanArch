@@ -1,4 +1,6 @@
 ﻿using CleanArchMvc.Domain.Validation;
+using System.Runtime.Serialization;
+using System.Text.Json.Serialization;
 
 namespace CleanArchMvc.Domain.Entities
 {
