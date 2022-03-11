@@ -29,7 +29,11 @@ namespace CleanArchMvc.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
 
+            //ativar auth e validar o token
+            services.AddInfrastructureJWT(Configuration);
+
             services.AddInfrastructureAPI(Configuration);
+
             services.AddControllers();
             services.AddDbContext<ApplicationDbContext>();
             services.AddSwaggerGen(c =>

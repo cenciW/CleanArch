@@ -33,6 +33,7 @@ namespace CleanArchMvc.WebApi.Controllers
         [ApiExplorerSettings(IgnoreApi = true)]
         public async Task<ActionResult> CreateUser([FromBody] LoginModel userInfo)
         {
+
             var result = await _authentication.RegisterUser(userInfo.Email, userInfo.Password);
 
             if (!result)
