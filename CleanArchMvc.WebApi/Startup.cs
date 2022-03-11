@@ -34,12 +34,12 @@ namespace CleanArchMvc.WebApi
 
             services.AddInfrastructureAPI(Configuration);
 
+            services.AddInfrastructureSwagger();
+
             services.AddControllers();
-            services.AddDbContext<ApplicationDbContext>();
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "CleanArchMvc.WebApi", Version = "v1" });
-            });
+            //services.AddDbContext<ApplicationDbContext>();
+            
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

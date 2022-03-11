@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XlaH0Gvy46o/bazI/e7WI+1U/ghhQZ0CSribNUWDZoRW75m3h59mv39Oy/NnBevcDWwr8DHcUtXXJRdVdMnY9w==",
+  "dgSpecHash": "rGcjl1MERBEqfBbRlepXYrmdchT8NE7GANAn0msJcE7clJ5yfUhPGp0dlEFBn0zEP9JNO88PrdOds+eRmoW0UQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jose Augusto\\source\\repos\\CleanArchMvcc\\CleanArchMvc.WebApi\\CleanArchMvc.WebApi.csproj",
   "expectedPackageFiles": [
@@ -67,9 +67,9 @@
     "C:\\Users\\Jose Augusto\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Jose Augusto\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\Jose Augusto\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
-    "C:\\Users\\Jose Augusto\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
-    "C:\\Users\\Jose Augusto\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "C:\\Users\\Jose Augusto\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "C:\\Users\\Jose Augusto\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.3.0\\swashbuckle.aspnetcore.swagger.6.3.0.nupkg.sha512",
+    "C:\\Users\\Jose Augusto\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.3.0\\swashbuckle.aspnetcore.swaggergen.6.3.0.nupkg.sha512",
+    "C:\\Users\\Jose Augusto\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.3.0\\swashbuckle.aspnetcore.swaggerui.6.3.0.nupkg.sha512",
     "C:\\Users\\Jose Augusto\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\Jose Augusto\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\Jose Augusto\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
