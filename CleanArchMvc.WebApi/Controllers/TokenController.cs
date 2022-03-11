@@ -1,5 +1,6 @@
 ﻿using CleanArchMvc.Domain.Account;
 using CleanArchMvc.WebApi.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -31,6 +32,7 @@ namespace CleanArchMvc.WebApi.Controllers
         [HttpPost("CreateUser")]
         //Para não aparecer no swagger
         [ApiExplorerSettings(IgnoreApi = true)]
+        [Authorize]
         public async Task<ActionResult> CreateUser([FromBody] LoginModel userInfo)
         {
 
@@ -50,6 +52,7 @@ namespace CleanArchMvc.WebApi.Controllers
         }
 
         //autenticar user
+        [AllowAnonymous]
         [HttpPost("LoginUser")]
         public async Task<ActionResult<UserToken>> Login([FromBody] LoginModel userInfo)
         {

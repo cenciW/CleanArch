@@ -53,10 +53,14 @@ namespace CleanArchMvc.WebApi
             }
 
             app.UseHttpsRedirection();
+            //Tratar erros "nao definidos"
+            app.UseStatusCodePages();
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
+            
 
             app.UseEndpoints(endpoints =>
             {
